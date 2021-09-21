@@ -49,7 +49,7 @@ var planeSymbol = {
     fillColor: '#000',
     fillOpacity: 1.5,
     scale: 1,
-    anchor: new google.maps.Point(11, 11),
+    anchor: new google.maps.Point(11,11),
     strokeWeight: 0
 };
 function flyplane(){
@@ -84,7 +84,6 @@ function animate(startPoint, endPoint,speed) {
         path: [sP, sP],
         strokeOpacity: 0,
         strokeColor: '#61b33b',
-        // strokeWeight: 2,
         map: mapObject,
         icons: [
             {
