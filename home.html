@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="home.css" />
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script>
+		<script src="home.js"></script>
+	</head>
+	<body>
+		
+		
+		<div class="controls">
+		<label for="speed">Enter the speed: </label>
+		<input type="text" id="speed">
+		<button onclick="flyplane()">Start</button></div>
+		<div id="mapCanvas" class="map"></div>
+		<script type="text/javascript">loadMap();</script>
+	</body>
+</html>
